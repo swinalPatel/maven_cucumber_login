@@ -1,0 +1,3 @@
+com\cucumber\MavenCucumberLogin\LoginRunnerTest.class
+com\cucumber\MavenCucumberLogin\LoginSteps.class
+com\cucumber\MavenCucumberLogin\WebConnector.class
