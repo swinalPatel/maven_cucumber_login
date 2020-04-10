@@ -50,6 +50,6 @@ public class LoginSteps {
 	public void close_the_browser() throws Exception
 	{
 		Selenium.close_Browser();
-		System.out.println("closing the browser");
+		System.out.println("closing the browser after finishing all");
 	}
 }
