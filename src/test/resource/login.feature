@@ -11,6 +11,7 @@ And I enter "loginusername" as "mngr253411"
 And I enter "loginpassword" as "YdYsytA"
 And I click on "LoginButton"
 Then login should be "success"
+And I click on "newcustomer"
 And close the browser
 
 

@@ -41,6 +41,11 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
+  "name": "I click on \"newcustomer\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
   "name": "close the browser",
   "keyword": "And "
 });
@@ -58,7 +63,7 @@ formatter.match({
   "location": "LoginSteps.I_go_to_(String,String)"
 });
 formatter.result({
-  "duration": 9114600100,
+  "duration": 8617944900,
   "status": "passed"
 });
 formatter.match({
@@ -75,7 +80,7 @@ formatter.match({
   "location": "LoginSteps.I_enter_username_password(String,String)"
 });
 formatter.result({
-  "duration": 147514900,
+  "duration": 185313500,
   "status": "passed"
 });
 formatter.match({
@@ -92,7 +97,7 @@ formatter.match({
   "location": "LoginSteps.I_enter_username_password(String,String)"
 });
 formatter.result({
-  "duration": 173548600,
+  "duration": 87452500,
   "status": "passed"
 });
 formatter.match({
@@ -105,7 +110,7 @@ formatter.match({
   "location": "LoginSteps.I_click_on(String)"
 });
 formatter.result({
-  "duration": 1483698500,
+  "duration": 1161044900,
   "status": "passed"
 });
 formatter.match({
@@ -118,14 +123,27 @@ formatter.match({
   "location": "LoginSteps.login_should_be(String)"
 });
 formatter.result({
-  "duration": 57354300,
+  "duration": 23453100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "newcustomer",
+      "offset": 12
+    }
+  ],
+  "location": "LoginSteps.I_click_on(String)"
+});
+formatter.result({
+  "duration": 733246400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.close_the_browser()"
 });
 formatter.result({
-  "duration": 1937915800,
+  "duration": 2086756900,
   "status": "passed"
 });
 });

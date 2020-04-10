@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.cucumber.MavenCucumberLogin.LoginRunnerTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="com.cucumber.MavenCucumberLogin.LoginRunnerTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin"/>
     <property name="java.vm.version" value="25.241-b07"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Swinal\Study\Eclipse_Workspace\MavenCucumberLogin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Swinal\Study\maven_cucumber_login_repo\maven_cucumber_login"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Swinal\Study\Eclipse_Workspace\MavenCucumberLogin"/>
+    <property name="user.dir" value="C:\Swinal\Study\maven_cucumber_login_repo\maven_cucumber_login"/>
     <property name="java.runtime.version" value="1.8.0_241-b07"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
@@ -66,10 +66,11 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="Scenario: Logging in Guru99 banking website" name="Given I go to &quot;loginURL&quot; on &quot;Mozila&quot;" time="0.004"/>
-  <testcase classname="Scenario: Logging in Guru99 banking website" name="And I enter &quot;loginusername&quot; as &quot;mngr253411&quot;" time="0.001"/>
+  <testcase classname="Scenario: Logging in Guru99 banking website" name="And I enter &quot;loginusername&quot; as &quot;mngr253411&quot;" time="0"/>
   <testcase classname="Scenario: Logging in Guru99 banking website" name="And I enter &quot;loginpassword&quot; as &quot;YdYsytA&quot;" time="0"/>
   <testcase classname="Scenario: Logging in Guru99 banking website" name="And I click on &quot;LoginButton&quot;" time="0"/>
   <testcase classname="Scenario: Logging in Guru99 banking website" name="Then login should be &quot;success&quot;" time="0"/>
+  <testcase classname="Scenario: Logging in Guru99 banking website" name="And I click on &quot;newcustomer&quot;" time="0"/>
   <testcase classname="Scenario: Logging in Guru99 banking website" name="And close the browser" time="0"/>
   <testcase classname="Scenario: Logging in Guru99 banking website" name="Scenario: Logging in Guru99 banking website" time="0.001"/>
 </testsuite>
