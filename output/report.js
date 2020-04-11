@@ -63,7 +63,7 @@ formatter.match({
   "location": "LoginSteps.I_go_to_(String,String)"
 });
 formatter.result({
-  "duration": 8617944900,
+  "duration": 14951715300,
   "status": "passed"
 });
 formatter.match({
@@ -80,7 +80,7 @@ formatter.match({
   "location": "LoginSteps.I_enter_username_password(String,String)"
 });
 formatter.result({
-  "duration": 185313500,
+  "duration": 157399500,
   "status": "passed"
 });
 formatter.match({
@@ -97,7 +97,7 @@ formatter.match({
   "location": "LoginSteps.I_enter_username_password(String,String)"
 });
 formatter.result({
-  "duration": 87452500,
+  "duration": 63261300,
   "status": "passed"
 });
 formatter.match({
@@ -110,7 +110,7 @@ formatter.match({
   "location": "LoginSteps.I_click_on(String)"
 });
 formatter.result({
-  "duration": 1161044900,
+  "duration": 3157156700,
   "status": "passed"
 });
 formatter.match({
@@ -123,7 +123,7 @@ formatter.match({
   "location": "LoginSteps.login_should_be(String)"
 });
 formatter.result({
-  "duration": 23453100,
+  "duration": 44883100,
   "status": "passed"
 });
 formatter.match({
@@ -136,14 +136,14 @@ formatter.match({
   "location": "LoginSteps.I_click_on(String)"
 });
 formatter.result({
-  "duration": 733246400,
+  "duration": 1507700500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.close_the_browser()"
 });
 formatter.result({
-  "duration": 2086756900,
+  "duration": 2589865100,
   "status": "passed"
 });
 });
